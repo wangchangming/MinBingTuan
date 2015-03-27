@@ -109,6 +109,7 @@ public class MianAppliction extends Application {
         userInfo.setGroupName(groupName);
     }
     
+    
     /**
      * 设置地理位置信息
      * @param addr 地址信息

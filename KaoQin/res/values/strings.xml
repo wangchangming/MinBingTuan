@@ -55,6 +55,11 @@
     <string name="month">月</string>
     <string name="day">日</string>
     <string name="selected_year_month">请选择月份</string>
+    <string name="logining">登录中...</string>
+    <string name="login_failed">登录失败！</string>
+    <string name="net_status">网络状态</string>
+    <string name="net_no_message">当前无网络，请打开设置！</string>
+    <string name="know">知道了</string>
 
     <!-- 退出 -->
     <string name="Sure_you_want_to_quit">确定要退出吗?</string>

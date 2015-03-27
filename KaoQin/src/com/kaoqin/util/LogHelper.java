@@ -1,7 +1,9 @@
 
 package com.kaoqin.util;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 public class LogHelper {
     private static String TAG = "MinBingTuan";
@@ -22,5 +24,9 @@ public class LogHelper {
                 traceElement.getMethodName(), traceElement.getLineNumber());
         Log.i(TAG, logcat + "->" +str);
     }
+    
+    public static void toast(Context context,String str){
+    	Toast.makeText(context, str, Toast.LENGTH_LONG).show();
+    } 
 
 }

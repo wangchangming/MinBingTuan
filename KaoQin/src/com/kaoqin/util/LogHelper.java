@@ -26,7 +26,7 @@ public class LogHelper {
     }
     
     public static void toast(Context context,String str){
-    	Toast.makeText(context, str, Toast.LENGTH_LONG).show();
-    } 
+        Toast.makeText(context, str, Toast.LENGTH_LONG).show();
+    }
 
 }

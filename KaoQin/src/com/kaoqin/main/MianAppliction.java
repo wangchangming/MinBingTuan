@@ -109,6 +109,13 @@ public class MianAppliction extends Application {
         userInfo.setGroupName(groupName);
     }
     
+    /**
+     * 获取应用的个人信息
+     * @return
+     */
+    public UserInfo getUserInfo(){
+        return userInfo;
+    }
     
     /**
      * 设置地理位置信息
